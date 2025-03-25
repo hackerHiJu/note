@@ -1,0 +1,176 @@
+{
+  "main": {
+    "id": "0e1af4f41ff2e638",
+    "type": "split",
+    "children": [
+      {
+        "id": "de59b30bcec0b631",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e7626446a7f42b4f",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1a571e5c1882046e",
+    "type": "split",
+    "children": [
+      {
+        "id": "226edb2a6c005747",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "30a22aaab60de9b2",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "0c1acf7de7b9f6b5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "136eea41a1de0168",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 241.5
+  },
+  "right": {
+    "id": "100d1f549785f827",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e417ebb896a3f4a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "fb93d9c270c0be1a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "92efb91c9300b778",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "ef2c69cf64deab89",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "f314f975be0a2cd9",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 600.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
+      "workspaces:管理工作区布局": false
+    }
+  },
+  "active": "e7626446a7f42b4f",
+  "lastOpenFiles": [
+    "技巧笔记/images/《深度学习入门：基于Python的理论与实现》高清中文版.pdf",
+    "AI/AI大模型.md",
+    "未命名.md",
+    "扩展知识点链接.md",
+    "深度学习.md",
+    "Drawing 2025-03-25 21.44.32.excalidraw.md",
+    "Excalidraw/Drawing 2025-03-25 21.43.04.excalidraw.md",
+    "Excalidraw",
+    "技巧笔记/1.GitHub+Typora+PicGo实现图片自动上传.md"
+  ]
+}
