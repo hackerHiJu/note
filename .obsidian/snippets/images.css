@@ -1,0 +1,14 @@
+img {
+display: block !important;
+margin-left: auto !important;
+margin-right: auto !important;
+width: 500px !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-content > * {
+margin: auto !important;
+}
+
+img:active {
+width: 100% !important;
+}

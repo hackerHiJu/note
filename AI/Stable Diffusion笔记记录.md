@@ -469,7 +469,7 @@ Tag的格式：
 
 右边会出现一些图片的一些提示词和反向提示
 
-![image-20240317113239780](images/image-20240317113239780.png)
+![image-20240317113239780](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20240317113239780.png)
 
 
 

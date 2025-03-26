@@ -1,20 +1,24 @@
 {
   "main": {
-    "id": "0e1af4f41ff2e638",
+    "id": "e046c482e61e7fcb",
     "type": "split",
     "children": [
       {
-        "id": "de59b30bcec0b631",
+        "id": "a38fd56492339b87",
         "type": "tabs",
         "children": [
           {
-            "id": "e7626446a7f42b4f",
+            "id": "81f009d6a274f47b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "新标签页"
+              "title": "AI大模型"
             }
           }
         ]
@@ -23,28 +27,28 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "1a571e5c1882046e",
+    "id": "7954117e61587830",
     "type": "split",
     "children": [
       {
-        "id": "226edb2a6c005747",
+        "id": "5b2bf3e4fd3651fe",
         "type": "tabs",
         "children": [
           {
-            "id": "30a22aaab60de9b2",
+            "id": "d399f33c729cd409",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
             }
           },
           {
-            "id": "0c1acf7de7b9f6b5",
+            "id": "21550415deb48c87",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -61,7 +65,7 @@
             }
           },
           {
-            "id": "136eea41a1de0168",
+            "id": "f13875772c00693d",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -74,49 +78,50 @@
       }
     ],
     "direction": "horizontal",
-    "width": 241.5
+    "width": 359.5
   },
   "right": {
-    "id": "100d1f549785f827",
+    "id": "dc7245cd3a20c97e",
     "type": "split",
     "children": [
       {
-        "id": "5e417ebb896a3f4a",
+        "id": "ec0720e29f8c7a50",
         "type": "tabs",
         "children": [
           {
-            "id": "fb93d9c270c0be1a",
+            "id": "8f2dd42f51fc92eb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "templaters/hexo笔记模板.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "反向链接"
+              "title": "hexo笔记模板 的反向链接列表"
             }
           },
           {
-            "id": "92efb91c9300b778",
+            "id": "97e2677669f2c096",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
                 "linksCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
               "title": "出链"
             }
           },
           {
-            "id": "ef2c69cf64deab89",
+            "id": "2c5e39e069049d07",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -131,7 +136,22 @@
             }
           },
           {
-            "id": "f314f975be0a2cd9",
+            "id": "d2822bb4a6673ec1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "AI大模型 的大纲"
+            }
+          },
+          {
+            "id": "ef614aa46d183a25",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -145,32 +165,70 @@
       }
     ],
     "direction": "horizontal",
-    "width": 600.5,
+    "width": 402.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:新建绘图文件": false,
-      "workspaces:管理工作区布局": false
+      "templater-obsidian:Templater": false,
+      "copilot:Open Copilot Chat": false
     }
   },
-  "active": "e7626446a7f42b4f",
+  "active": "81f009d6a274f47b",
   "lastOpenFiles": [
-    "技巧笔记/images/《深度学习入门：基于Python的理论与实现》高清中文版.pdf",
-    "AI/AI大模型.md",
-    "未命名.md",
-    "扩展知识点链接.md",
-    "深度学习.md",
-    "Drawing 2025-03-25 21.44.32.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-25 21.43.04.excalidraw.md",
-    "Excalidraw",
-    "技巧笔记/1.GitHub+Typora+PicGo实现图片自动上传.md"
+    "hackerHiJu.github.io/source/_posts/GitHub+Typora+PicGo实现图片自动上传.md",
+    "note/技巧笔记/3.Node-Red笔记.md",
+    "hackerHiJu.github.io/source/_posts/Node-Red笔记.md",
+    "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
+    "hackerHiJu.github.io/source/_posts/ai/StableDiffusion笔记记录.md",
+    "note/AI/AI大模型.md",
+    "note/AI/Stable Diffusion笔记记录.md",
+    "note/AI/Stable Diffusion提示词.md",
+    "templaters/hexo笔记模板.md",
+    "note/技巧笔记/1.GitHub+Typora+PicGo实现图片自动上传.md",
+    "hackerHiJu.github.io/source/_posts/3.Node-Red笔记.md",
+    "hackerHiJu.github.io/source/_posts/1.GitHub+Typora+PicGo实现图片自动上传.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/1.kafka入门.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/1.camounda基础入门.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/9.netty之核心组件与源码解析.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/8.netty之ByteBuf源码解析.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/7.netty之私有协议.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/6.netty之udp协议.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/5.netty之websocket协议.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/4.netty之http协议.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/3.netty之基础知识.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/2.nio.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/netty/1.aio.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/3.Kubernetes之Pod详解.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/2.Kubernetes之实战入门.md",
+    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/1.Kubernetes之安装与基本语法.md",
+    "templaters/images/hexo笔记模板-1742976959958.png",
+    "templaters/images/image.png",
+    "templaters/images/Pasted image 20250326160221.png",
+    "templaters/images/Pasted image 20250326155049.png",
+    "templaters/images",
+    "note/性能调优/jvm/images/1653982041278.png",
+    "note/前端开发/typescript/images/image-20230728174749432.png",
+    "图片/壁纸/【哲风壁纸】上班-不想加班.png",
+    "hackerHiJu.github.io/db.json",
+    "图片/壁纸/【哲风壁纸】404-基础.png",
+    "hackerHiJu.github.io/public/js/libs/mermaid.min.js.map",
+    "hackerHiJu.github.io/public/webfonts/fa-duotone-900.ttf",
+    "hackerHiJu.github.io/public/webfonts/fa-thin-100.ttf",
+    "hackerHiJu.github.io/public/webfonts/fa-light-300.ttf",
+    "hackerHiJu.github.io/public/js/libs/waline.mjs.map",
+    "hackerHiJu.github.io/public/webfonts/fa-regular-400.ttf",
+    "hackerHiJu.github.io/public/webfonts/fa-solid-900.ttf",
+    "hackerHiJu.github.io/public/js/build/libs/mermaid.min.js",
+    "hackerHiJu.github.io/public/images/wallhaven-wqery6-light.webp",
+    "hackerHiJu.github.io/public/images/wallhaven-wqery6-dark.webp"
   ]
 }

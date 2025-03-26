@@ -1,6 +1,17 @@
+---
+title: AI大模型
+date: 2025-03-20 19:07:05
+updated: 2025-03-20 19:07:05
+tags:
+  - AI
+comments: true
+categories:
+  - AI
+thumbnail: https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/%25E5%25A4%25A9%25E7%25A9%25BA.png
+---
 # 1. LLM
 
-![image-20250113155915089](images/image-20250113155915089.png)
+![image-20250113155915089](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250113155915089.png)
 
 - LLM：大语言模型
 - Token：是指已经清洗后的词语
@@ -11,14 +22,14 @@
 
 自己内部的文本资料数据，进行 **Split** 分词，然后将分词后的词语通过 **Embeddings** 对词语进行向量化；用户输入数据后，通过向量数据库的数据段落根据相适度进行匹配，将获取到到数据组成一个 **Prompt** 提示词传递给 LLM
 
-![image-20250113155830759](images/image-20250113155830759.png)
+![image-20250113155830759](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250113155830759.png)
 
 - 向量数据库：存储将词语进行向量化后的数据库
 - Embeddings：RAG核心技术，将词语进行向量化的模型 [什么是Embeddings模型？](https://blog.csdn.net/2301_81940605/article/details/143814539)
 
 # 3. 大模型微调
 
-![image-20250113160926386](images/image-20250113160926386.png)
+![image-20250113160926386](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250113160926386.png)
 
 ## 3.1 大模型的微调方法
 
@@ -84,11 +95,11 @@ https://blog.csdn.net/m0_69655483/article/details/138229566
 
 图一的模型出现了过拟合，学习率设置的比较高基本在500步就降低到0.5以下了，模型问什么就按照训练的数据回答，失去了模型的创意能力
 
-![image-20250307114339548](images/image-20250307114339548.png)
+![image-20250307114339548](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250307114339548.png)
 
 图二在500-1000降到0.8左右，模型的收敛比较好
 
-![image-20250307114452146](images/image-20250307114452146.png)
+![image-20250307114452146](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250307114452146.png)
 
 以 **DeepSeek-R1-Distill-Qwen-1.5B** 模型使用魔搭 **Robin021/DISC-Law-SFT、distill_r1_110k** 提取数据进行微调
 
@@ -289,9 +300,9 @@ nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250301204712917](images/image-20250301204712917.png)
+![image-20250301204712917](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301204712917.png)
 
-![image-20250301200438797](images/image-20250301200438797.png)
+![image-20250301200438797](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301200438797.png)
 
 - 训练时长7分20秒
 - 模型测试，可以进行新闻分类，并且也能够回答其他的通用问题
@@ -376,9 +387,9 @@ nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250301204835052](images/image-20250301204835052.png)
+![image-20250301204835052](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301204835052.png)
 
-![image-20250301205708332](images/image-20250301205708332.png)
+![image-20250301205708332](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301205708332.png)
 
 - 训练时长7分20秒
 - 模型测试，可以进行新闻分类，并且也能够回答其他的通用问题
@@ -392,9 +403,9 @@ nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250301210739526](images/image-20250301210739526.png)
+![image-20250301210739526](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301210739526.png)
 
-![image-20250301211624532](images/image-20250301211624532.png)
+![image-20250301211624532](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301211624532.png)
 
 - 训练时长7分钟26秒
 - 模型测试，可以进行新闻分类，并且也能够回答其他的通用问题
@@ -409,9 +420,9 @@ nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250301215057724](images/image-20250301215057724.png)
+![image-20250301215057724](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301215057724.png)
 
-![image-20250301215553649](images/image-20250301215553649.png)
+![image-20250301215553649](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250301215553649.png)
 
 - 训练时长23分钟24秒
 - 可以发现整个loss损失率的曲线是一直在降低的，但是一直没有趋于平缓，模型还是出现了过拟合的现象
@@ -487,9 +498,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && llamafactory-cli train \
 
 微调结果：
 
-![image-20250302155956800](images/image-20250302155956800.png)
+![image-20250302155956800](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250302155956800.png)
 
-![image-20250302184710742](images/image-20250302184710742.png)
+![image-20250302184710742](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250302184710742.png)
 
 - 训练时长6小时30分钟24秒
 - 数据集9000条法律数据，可以看到损失率的图像波动不大，通过测试集发现评分标准也比较高
@@ -506,9 +517,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && llamafactory-cli train \
 
 微调结果：
 
-![image-20250302200914919](images/image-20250302200914919.png)
+![image-20250302200914919](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250302200914919.png)
 
-![image-20250302215120063](images/image-20250302215120063.png)
+![image-20250302215120063](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250302215120063.png)
 
 - 训练时长1小时18分钟3秒
 - 通过对微调后的大模型实验降低法律数据集到2000条后，大模型出现了过拟合的现象，模型不能很好的回答问题并且通用问题也不能很好的回答，深度思考的能力也丢失了
@@ -523,9 +534,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && llamafactory-cli train \
 
 微调结果：
 
-![QQ_1740966019959](images/QQ_1740966019959.png)
+![QQ_1740966019959](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/QQ_1740966019959.png)
 
-![QQ_1740967886027](images/QQ_1740967886027.png)
+![QQ_1740967886027](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/QQ_1740967886027.png)
 
 - 模型loss逐渐平缓
 - 性能评估后发现指标并不高
@@ -590,9 +601,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250303150514617](images/image-20250303150514617.png)
+![image-20250303150514617](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250303150514617.png)
 
-![image-20250303171241686](images/image-20250303171241686.png)
+![image-20250303171241686](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250303171241686.png)
 
 - 训练时长1小时54分钟46秒
 - 通过大模型验证测试，模型出现了过拟合的现象，实际测试跟微调3区别不大
@@ -611,9 +622,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250304092729598](images/image-20250304092729598.png)
+![image-20250304092729598](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250304092729598.png)
 
-![image-20250304092744698](images/image-20250304092744698.png)
+![image-20250304092744698](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250304092744698.png)
 
 - 通过调整lora相关的参数发现模型不管问什么问题都是回答的通用问题，lora系数缩放过大参数更新范围也比较大所以出现了灾难性遗忘；而验证集loss在前面降低后面上升是明显的出现了过拟合的现象
 - 通过交叉验证，模型失去了通用能力
@@ -629,9 +640,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250305165307241](images/image-20250305165307241.png)
+![image-20250305165307241](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250305165307241.png)
 
-![image-20250305165232859](images/image-20250305165232859.png)
+![image-20250305165232859](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250305165232859.png)
 
 - 微调时长2小时28分钟49秒
 - 大模型通用能力没有丧失，也能够回答专业数据，但是回答的准确率不高
@@ -648,9 +659,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250305145221624](images/image-20250305145221624.png)
+![image-20250305145221624](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250305145221624.png)
 
-![image-20250305154657301](images/image-20250305154657301.png)
+![image-20250305154657301](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250305154657301.png)
 
 - 训练时长19小时54分钟，loss图由于普通数据和专业数据结合所以在计算的时候特征相距较大所以就会出现波动比较大的情况，但是整体是下降的
 - 通过使用混合数据训练后，模型没有失去回答通用问题的能力，专业能力也具备引用具体的法律条例
@@ -670,9 +681,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250306132705444](images/image-20250306132705444.png)
+![image-20250306132705444](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250306132705444.png)
 
-![image-20250306142805362](images/image-20250306142805362.png)
+![image-20250306142805362](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250306142805362.png)
 
 - 微调时长19小时52分钟21秒，通过loss可以看到跟微调7的过程差不多
 - 评估结果可以看到将数据集拆分可得到的分数要比微调7合并在一起作为混合数据训练要高许多
@@ -690,9 +701,9 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 微调结果：
 
-![image-20250307111146618](images/image-20250307111146618.png)
+![image-20250307111146618](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250307111146618.png)
 
-![image-20250307111211935](images/image-20250307111211935.png)
+![image-20250307111211935](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250307111211935.png)
 
 - 训练集的模型不收敛，效果不是很好
 - 评估的数据收敛的比较好
@@ -762,7 +773,7 @@ export CUDA_VISIBLE_DEVICES=2,3 && nohup llamafactory-cli train \
 
 ## 4.2 Langchain的底层原理
 
-![image-20250114134106203](images/image-20250114134106203.png)
+![image-20250114134106203](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250114134106203.png)
 
 举例：上图展示了一个智能问答系统的工作流程。
 
@@ -801,7 +812,7 @@ messages = [
 print(llm.invoke(messages).content)
 ```
 
-![image-20250114153816736](images/image-20250114153816736.png)
+![image-20250114153816736](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250114153816736.png)
 
 ### 4.3.2 流式调用
 
@@ -832,7 +843,7 @@ while True:
     messages.append(("assistant", full.content))
 ```
 
-![image-20250114155835017](images/image-20250114155835017.png)
+![image-20250114155835017](https://cdn.jsdelivr.net/gh/hackerHiJu/note-picture@main/note-picture/image-20250114155835017.png)
 
 ### 4.3.3 链式调用
 
