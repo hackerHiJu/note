@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
+                "file": "Java/分布式/rabbitmq/1.RabbitMq安装.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI大模型"
+              "title": "1.RabbitMq安装"
             }
           }
         ]
@@ -184,6 +184,9 @@
   },
   "active": "81f009d6a274f47b",
   "lastOpenFiles": [
+    "技巧笔记/1.GitHub+Typora+PicGo实现图片自动上传.md",
+    "Java/分布式/rabbitmq/1.RabbitMq安装.md",
+    "Java/分布式/es/ElasticSearch.md",
     "hackerHiJu.github.io/source/_posts/GitHub+Typora+PicGo实现图片自动上传.md",
     "note/技巧笔记/3.Node-Red笔记.md",
     "hackerHiJu.github.io/source/_posts/Node-Red笔记.md",
@@ -207,9 +210,6 @@
     "hackerHiJu.github.io/source/_posts/java/分布式/netty/3.netty之基础知识.md",
     "hackerHiJu.github.io/source/_posts/java/分布式/netty/2.nio.md",
     "hackerHiJu.github.io/source/_posts/java/分布式/netty/1.aio.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/3.Kubernetes之Pod详解.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/2.Kubernetes之实战入门.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/1.Kubernetes之安装与基本语法.md",
     "templaters/images/hexo笔记模板-1742976959958.png",
     "templaters/images/image.png",
     "templaters/images/Pasted image 20250326160221.png",

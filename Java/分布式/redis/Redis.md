@@ -110,7 +110,7 @@ SUNION set1 set2 set3  #并集
 SDIFF  set1 set2 set3  #差集
 ```
 
-![image-20210204162654551](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210204162654551.png)
+![image-20210204162654551|500x331](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210204162654551.png)
 
 ![image-20210204162713517](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210204162713517.png)
 
@@ -127,7 +127,7 @@ SDIFF  set1 set2 set3  #差集
   - ZUNIONSTORE hotNews:20210101-20210107 7 key...   取七日的热榜并集
   - ZREVRANGE  hotNews:20210101-20210107 0 10 WITHSCORES  倒叙排序
 
-  ![image-20210204162625216](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210204162625216.png)
+  ![image-20210204162625216|500x264](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210204162625216.png)
 
 ## 三、核心原理
 
@@ -338,7 +338,7 @@ redis-cli create --cluster-replicas 1 ip:port ip:port
 
 说明：每个添加的新节点都是主节点
 
-![image-20210207155432485](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210207155432485.png)
+![image-20210207155432485|500x347](https://cdn.jsdelivr.net/gh/hackerhaiJu/note-picture@main/note-picture/image-20210207155432485.png)
 
 #### 3.5 删除节点
 
