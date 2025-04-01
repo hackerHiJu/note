@@ -10,9 +10,12 @@
   "oz-clear-unused-images",
   "templater-obsidian",
   "obsidian-style-settings",
-  "copilot",
   "obsidian-banners",
   "obsidian-minimal-settings",
   "obsidian-image-auto-upload-plugin",
-  "image-converter"
+  "image-converter",
+  "terminal",
+  "obsidian-textgenerator-plugin",
+  "dataview",
+  "data-files-editor"
 ]

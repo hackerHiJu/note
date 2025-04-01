@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "a38fd56492339b87",
+        "id": "b27a853352b82ea3",
         "type": "tabs",
         "children": [
           {
-            "id": "81f009d6a274f47b",
+            "id": "65aa4fcdb8f8b7b2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
+                "file": "hackerHiJu.github.io/source/_posts/AI/显卡性能对比.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AI大模型"
+              "title": "显卡性能对比"
             }
           }
         ]
@@ -41,7 +41,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "文件列表"
@@ -53,8 +53,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "java加载",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -73,12 +73,27 @@
               "icon": "lucide-bookmark",
               "title": "书签"
             }
+          },
+          {
+            "id": "bd5c1170f5711839",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "hackerHiJu.github.io/source/_posts/AI/显卡性能对比.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "显卡性能对比 的大纲"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 359.5
+    "width": 280.5
   },
   "right": {
     "id": "dc7245cd3a20c97e",
@@ -94,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "templaters/hexo笔记模板.md",
+                "file": "hackerHiJu.github.io/source/_posts/AI/显卡性能对比.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "hexo笔记模板 的反向链接列表"
+              "title": "显卡性能对比 的反向链接列表"
             }
           },
           {
@@ -113,11 +128,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "linksCollapsed": false,
+                "file": "hackerHiJu.github.io/source/_posts/AI/显卡性能对比.md",
+                "linksCollapsed": true,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "出链"
+              "title": "显卡性能对比 的出链列表"
             }
           },
           {
@@ -136,21 +152,6 @@
             }
           },
           {
-            "id": "d2822bb4a6673ec1",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "AI大模型 的大纲"
-            }
-          },
-          {
             "id": "ef614aa46d183a25",
             "type": "leaf",
             "state": {
@@ -165,70 +166,75 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5,
+    "width": 557.5,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:新建绘图文件": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
-      "daily-notes:打开/创建今天的日记": false,
+      "daily-notes:打开/创建今天的日记": true,
       "templates:插入模板": false,
       "command-palette:打开命令面板": false,
       "templater-obsidian:Templater": false,
-      "copilot:Open Copilot Chat": false
+      "copilot:Open Copilot Chat": false,
+      "terminal:Open terminal": false,
+      "obsidian-textgenerator-plugin:Generate Text!": false,
+      "obsidian-textgenerator-plugin:Text Generator: Templates Packages Manager": false,
+      "publish:发布更改": false,
+      "workspaces:管理工作区布局": false
     }
   },
-  "active": "81f009d6a274f47b",
+  "active": "65aa4fcdb8f8b7b2",
   "lastOpenFiles": [
-    "hackerHiJu.github.io/source/_posts/GitHub+Typora+PicGo实现图片自动上传.md",
-    "note/技巧笔记/3.Node-Red笔记.md",
-    "hackerHiJu.github.io/source/_posts/Node-Red笔记.md",
-    "hackerHiJu.github.io/source/_posts/ai/AI大模型.md",
-    "hackerHiJu.github.io/source/_posts/ai/StableDiffusion笔记记录.md",
-    "note/AI/AI大模型.md",
-    "note/AI/Stable Diffusion笔记记录.md",
-    "note/AI/Stable Diffusion提示词.md",
-    "templaters/hexo笔记模板.md",
-    "note/技巧笔记/1.GitHub+Typora+PicGo实现图片自动上传.md",
-    "hackerHiJu.github.io/source/_posts/3.Node-Red笔记.md",
-    "hackerHiJu.github.io/source/_posts/1.GitHub+Typora+PicGo实现图片自动上传.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/1.kafka入门.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/1.camounda基础入门.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/9.netty之核心组件与源码解析.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/8.netty之ByteBuf源码解析.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/7.netty之私有协议.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/6.netty之udp协议.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/5.netty之websocket协议.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/4.netty之http协议.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/3.netty之基础知识.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/2.nio.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/netty/1.aio.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/3.Kubernetes之Pod详解.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/2.Kubernetes之实战入门.md",
-    "hackerHiJu.github.io/source/_posts/java/分布式/k8s/1.Kubernetes之安装与基本语法.md",
-    "templaters/images/hexo笔记模板-1742976959958.png",
-    "templaters/images/image.png",
-    "templaters/images/Pasted image 20250326160221.png",
-    "templaters/images/Pasted image 20250326155049.png",
-    "templaters/images",
-    "note/性能调优/jvm/images/1653982041278.png",
-    "note/前端开发/typescript/images/image-20230728174749432.png",
-    "图片/壁纸/【哲风壁纸】上班-不想加班.png",
-    "hackerHiJu.github.io/db.json",
-    "图片/壁纸/【哲风壁纸】404-基础.png",
+    "hackerHiJu.github.io/source/_posts/AI/images/显卡性能对比-1743502193800.png",
+    "hackerHiJu.github.io/source/_posts/AI/images/显卡性能对比-1743502178565.png",
+    "hackerHiJu.github.io/source/_posts/AI/images/显卡性能对比-1743502164143.png",
+    "hackerHiJu.github.io/source/_posts/AI/images",
+    "hackerHiJu.github.io/source/_posts/AI/显卡性能对比.md",
+    "hackerHiJu.github.io/_config.redefine.yml",
+    "hackerHiJu.github.io/source/_posts/汇编语言/汇编语言基础.md",
+    "Excalidraw/Drawing 2025-03-26 17.17.54.excalidraw.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/Processor注解处理器.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/nacos基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/字节码技术.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/Tdengine基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/RabbitMq基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/kafka基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/camounda基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/sharding-jdbc基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/Seata基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/实践/Rocketmq基础入门到实践.md",
+    "hackerHiJu.github.io/source/_posts/Java/虚拟机/Java虚拟机内存结构详解和优化分析.md",
+    "hackerHiJu.github.io/templaters/scripts",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/Thread详解.md",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/Collections&Queue体系.md",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/AQS源码.md",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/线程池.md",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/不使用Synchronized和Lock实现高效的单例模式.md",
+    "hackerHiJu.github.io/source/_posts/Java/多线程/并发编程.md",
+    "hackerHiJu.github.io/source/_posts/汇编语言/计算机组成与设计.md",
+    "hackerHiJu.github.io/source/_posts/汇编语言/寄存器(内存访问).md",
+    "hackerHiJu.github.io/source/_posts/Java/虚拟机/JVM（1）- 内存结构.md",
+    "hackerHiJu.github.io/source/_posts/Java/虚拟机/JVM（3）- 垃圾回收.md",
+    "hackerHiJu.github.io/source/_posts/Java/虚拟机/JVM（2）- StringTable.md",
     "hackerHiJu.github.io/public/js/libs/mermaid.min.js.map",
     "hackerHiJu.github.io/public/webfonts/fa-duotone-900.ttf",
-    "hackerHiJu.github.io/public/webfonts/fa-thin-100.ttf",
-    "hackerHiJu.github.io/public/webfonts/fa-light-300.ttf",
-    "hackerHiJu.github.io/public/js/libs/waline.mjs.map",
     "hackerHiJu.github.io/public/webfonts/fa-regular-400.ttf",
+    "hackerHiJu.github.io/public/webfonts/fa-thin-100.ttf",
+    "hackerHiJu.github.io/public/js/libs/waline.mjs.map",
+    "hackerHiJu.github.io/public/webfonts/fa-light-300.ttf",
     "hackerHiJu.github.io/public/webfonts/fa-solid-900.ttf",
-    "hackerHiJu.github.io/public/js/build/libs/mermaid.min.js",
+    "hackerHiJu.github.io/public/images/wallhaven-wqery6-dark.webp",
     "hackerHiJu.github.io/public/images/wallhaven-wqery6-light.webp",
-    "hackerHiJu.github.io/public/images/wallhaven-wqery6-dark.webp"
+    "hackerHiJu.github.io/public/images/redefine-logo.webp",
+    "hackerHiJu.github.io/public/images/redefine-og.webp",
+    "hackerHiJu.github.io/public/images/redefine-logo.svg",
+    "hackerHiJu.github.io/public/images/loading.svg",
+    "hackerHiJu.github.io/public/images/redefine-favicon.svg",
+    "hackerHiJu.github.io/public/images/头像.jpg"
   ]
 }

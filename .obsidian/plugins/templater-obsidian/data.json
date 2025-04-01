@@ -1,6 +1,6 @@
 {
   "command_timeout": 5,
-  "templates_folder": "templaters",
+  "templates_folder": "hackerHiJu.github.io/templaters",
   "templates_pairs": [
     [
       "",
@@ -11,16 +11,16 @@
   "auto_jump_to_cursor": false,
   "enable_system_commands": false,
   "shell_path": "",
-  "user_scripts_folder": "",
+  "user_scripts_folder": "hackerHiJu.github.io/templaters/scripts",
   "enable_folder_templates": true,
   "folder_templates": [
     {
       "folder": "note",
-      "template": "templaters/hexo笔记模板.md"
+      "template": "hackerHiJu.github.io/templaters/hexo笔记模板.md"
     },
     {
       "folder": "hackerHiJu.github.io",
-      "template": "templaters/hexo笔记模板.md"
+      "template": "hackerHiJu.github.io/templaters/hexo笔记模板.md"
     }
   ],
   "enable_file_templates": false,
