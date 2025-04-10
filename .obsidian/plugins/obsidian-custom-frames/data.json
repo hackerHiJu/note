@@ -1,0 +1,17 @@
+{
+  "frames": [
+    {
+      "url": "https://www.flaticon.com/",
+      "displayName": "open flaticon",
+      "icon": "",
+      "hideOnMobile": true,
+      "addRibbonIcon": false,
+      "openInCenter": false,
+      "zoomLevel": 1,
+      "forceIframe": false,
+      "customCss": "",
+      "customJs": ""
+    }
+  ],
+  "padding": 5
+}
