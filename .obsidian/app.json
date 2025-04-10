@@ -1,6 +1,7 @@
 {
-  "attachmentFolderPath": "./images",
+  "attachmentFolderPath": "/图片/笔记图片",
   "promptDelete": false,
   "readableLineLength": false,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "showUnsupportedFiles": true
 }

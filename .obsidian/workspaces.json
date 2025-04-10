@@ -1,6 +1,6 @@
 {
   "workspaces": {
-    "笔记工作区": {
+    "笔记布局": {
       "main": {
         "id": "e046c482e61e7fcb",
         "type": "split",
@@ -8,7 +8,7 @@
           {
             "id": "b27a853352b82ea3",
             "type": "tabs",
-            "dimension": 18.085106382978726,
+            "dimension": 14.586129753914989,
             "children": [
               {
                 "id": "bd5c1170f5711839",
@@ -23,18 +23,31 @@
                   },
                   "icon": "lucide-list",
                   "title": "显卡性能对比 的大纲"
-                },
-                "group": "4421d747bbaf6da6"
+                }
               }
             ]
           },
           {
             "id": "29f685da6bd4ac0d",
             "type": "tabs",
-            "dimension": 81.91489361702128,
+            "dimension": 85.41387024608501,
             "children": [
               {
                 "id": "0c3dd52fd00a80be",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "hackerHiJu.github.io/source/_posts/摄影/色彩原理（一）.md",
+                    "mode": "source",
+                    "source": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "色彩原理（一）"
+                }
+              },
+              {
+                "id": "9a675e59c81e1157",
                 "type": "leaf",
                 "state": {
                   "type": "markdown",
@@ -45,10 +58,10 @@
                   },
                   "icon": "lucide-file",
                   "title": "显卡性能对比"
-                },
-                "group": "4421d747bbaf6da6"
+                }
               }
-            ]
+            ],
+            "currentTab": 1
           }
         ],
         "direction": "vertical"
@@ -105,8 +118,7 @@
           }
         ],
         "direction": "horizontal",
-        "width": 280.5,
-        "collapsed": true
+        "width": 280.5
       },
       "right": {
         "id": "dc7245cd3a20c97e",
@@ -173,27 +185,14 @@
                   "icon": "spreadsheet",
                   "title": "Advanced Tables"
                 }
-              },
-              {
-                "id": "cb706857b217ae22",
-                "type": "leaf",
-                "state": {
-                  "type": "webviewer",
-                  "state": {
-                    "url": "https://tongyi.aliyun.com/qianwen/?sessionId=8761c151c3154359a2072c2ad43af165",
-                    "title": "通义 - 你的个人AI助手",
-                    "mode": "webview"
-                  },
-                  "icon": "globe-2",
-                  "title": "通义 - 你的个人AI助手"
-                }
               }
             ],
-            "currentTab": 4
+            "currentTab": 3
           }
         ],
         "direction": "horizontal",
-        "width": 781.5
+        "width": 679.5,
+        "collapsed": true
       },
       "left-ribbon": {
         "hiddenItems": {
@@ -214,9 +213,9 @@
           "workspaces:管理工作区布局": false
         }
       },
-      "active": "0c3dd52fd00a80be",
-      "mtime": "2025-04-01T13:37:18+08:00"
+      "active": "9a675e59c81e1157",
+      "mtime": "2025-04-02T18:00:30+08:00"
     }
   },
-  "active": "笔记工作区"
+  "active": "笔记布局"
 }
